@@ -1,0 +1,129 @@
+.log_out {
+    position: relative;
+    padding: 8px 0px;
+    font-size: 13px;
+    width: 28%;
+    border: 0px;
+    cursor: pointer;
+    color: inherit;
+    text-transform: capitalize;
+    border-radius: 2px;
+    background-color: #f78c8c;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.log_out_lab {
+    padding: 0px 2px;
+}
+
+.log_user {
+    padding: 6px 10px;
+    font-size: 23px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0px;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+}
+
+.log_user:hover {
+    background-color: #afafc3;
+}
+
+.log_user:active {
+    box-shadow: 0px 0px 0px black;
+}
+
+.da_but_icon {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    padding: 6px 12px;
+    border: 0;
+}
+
+.da_but_icon:hover {
+    background-color: #afafc3;
+}
+
+.da_sear_nav {
+    display: inline-flex;
+    margin: 0px auto;
+    width: 54%;
+    background-color: rgb(62, 62, 62);
+    align-items: center;
+}
+
+.da_sear_text {   
+    border-radius: 0px;
+    width: 100%;
+    border: 0;
+    padding: 11px 0px;
+}
+
+.da_sear_text:focus {
+    outline: none;
+    border: 1.5px solid #0a47d4;
+    background-color: white;
+}
+
+.da_TopNav_container {
+    margin: 0px auto;
+    width: 98%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.da_logo {  
+    margin-left: -1%;
+    width: 6%;
+    cursor: pointer;
+}
+
+.AppLeftNav {
+    background-color: rgb(62, 62, 62);
+    height: 92.9%;
+    display: inline-flex;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Left_N_List {
+    font-size: 12px;
+    text-align: center;
+    padding: 18px 4px;
+    color: white;
+    font-family: ui-rounded;
+    width: 83%;
+    cursor : pointer ;
+    transition: 0.5s;
+}
+.Left_N_List:hover {
+    background-color: #c8c8d1;
+}
+
+.close {
+    font-size: 22px;
+    margin-right: 2%;
+    position: relative;
+    left: 95%;
+}
+
+.hiddden {
+    display: none;
+}
+
+.absoluteness {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
